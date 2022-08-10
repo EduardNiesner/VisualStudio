@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WinForms
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Master was pressed.");
+        }
+
+        private void btnFeatureA1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Feature A 1 was preesed.");
+        }
+
+        private void btnFeatureA2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Feature A 2 was preesed.");
+        }
+
+        private void btnFeatureA1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Feature A 1 was preesed.");
+        }
+
+        private void btnFeatureA2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Feature A 2 was preesed.");
+        }
+    }
+}
