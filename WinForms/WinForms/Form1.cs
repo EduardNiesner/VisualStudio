@@ -26,5 +26,10 @@ namespace WinForms
         {
             MessageBox.Show("Feature A 1 was preesed.");
         }
+
+        private void btnFeatureA2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Feature A 2 was preesed.");
+        }
     }
 }
