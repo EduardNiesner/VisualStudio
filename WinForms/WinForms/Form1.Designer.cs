@@ -29,20 +29,20 @@ namespace WinForms
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMaster = new System.Windows.Forms.Button();
             this.btnFeatureA1 = new System.Windows.Forms.Button();
             this.btnFeatureA2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnMaster
             // 
-            this.button1.Location = new System.Drawing.Point(266, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(286, 143);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnMaster.Location = new System.Drawing.Point(266, 12);
+            this.btnMaster.Name = "btnMaster";
+            this.btnMaster.Size = new System.Drawing.Size(286, 143);
+            this.btnMaster.TabIndex = 0;
+            this.btnMaster.Text = "Master";
+            this.btnMaster.UseVisualStyleBackColor = true;
+            this.btnMaster.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnFeatureA1
             // 
@@ -69,9 +69,9 @@ namespace WinForms
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 723);
+            this.Controls.Add(this.btnMaster);
             this.Controls.Add(this.btnFeatureA2);
             this.Controls.Add(this.btnFeatureA1);
-            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -80,7 +80,7 @@ namespace WinForms
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMaster;
         private System.Windows.Forms.Button btnFeatureA1;
         private System.Windows.Forms.Button btnFeatureA2;
     }

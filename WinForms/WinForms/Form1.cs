@@ -19,7 +19,7 @@ namespace WinForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Button 1 was pressed.");
+            MessageBox.Show("Master was pressed.");
         }
 
         private void btnFeatureA1_Click(object sender, EventArgs e)
