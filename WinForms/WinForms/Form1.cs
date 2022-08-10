@@ -21,5 +21,10 @@ namespace WinForms
         {
             MessageBox.Show("Button 1 was pressed.");
         }
+
+        private void btnFeatureA1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Feature A 1 was preesed.");
+        }
     }
 }
