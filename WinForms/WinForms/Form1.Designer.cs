@@ -31,6 +31,7 @@ namespace WinForms
         {
             this.btnMaster = new System.Windows.Forms.Button();
             this.btnFeatureA1 = new System.Windows.Forms.Button();
+            this.btnFeatureA2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMaster
@@ -53,11 +54,22 @@ namespace WinForms
             this.btnFeatureA1.UseVisualStyleBackColor = true;
             this.btnFeatureA1.Click += new System.EventHandler(this.btnFeatureA1_Click);
             // 
+            // btnFeatureA2
+            // 
+            this.btnFeatureA2.Location = new System.Drawing.Point(266, 310);
+            this.btnFeatureA2.Name = "btnFeatureA2";
+            this.btnFeatureA2.Size = new System.Drawing.Size(286, 143);
+            this.btnFeatureA2.TabIndex = 2;
+            this.btnFeatureA2.Text = "Feature A 2";
+            this.btnFeatureA2.UseVisualStyleBackColor = true;
+            this.btnFeatureA2.Click += new System.EventHandler(this.btnFeatureA2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 723);
+            this.Controls.Add(this.btnFeatureA2);
             this.Controls.Add(this.btnFeatureA1);
             this.Controls.Add(this.btnMaster);
             this.Name = "Form1";
@@ -70,6 +82,7 @@ namespace WinForms
 
         private System.Windows.Forms.Button btnMaster;
         private System.Windows.Forms.Button btnFeatureA1;
+        private System.Windows.Forms.Button btnFeatureA2;
     }
 }
 
